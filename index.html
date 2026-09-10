@@ -8,8 +8,8 @@
 </head>
 
 <body style="font-family: Arial, sans-serif; margin: 40px; color: #333;">
-
-    <header>
+<main>
+<header>
         <h1 style="font-size: 2.2em; margin-bottom: 5px;">Andrés Eduardo López</h1>
         <img src="img/and.jpeg" alt=" Foto personal " width="300">
         <p style="font-size: 1.1em; color: #555;"><strong>Estudiante de Ingeniería de Sistemas</strong></p>
@@ -19,7 +19,7 @@
     <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
 
     <!-- Perfil -->
-    <section>
+    <section class="seccion" id="Perfil">
         <h2>Perfil</h2>
         <p>Estudiante de quinto semestre de Ingeniería de Sistemas en la Universidad CESMAG, con formación complementaria en contabilidad (SENA). Interesado en el desarrollo de software, lógica de programación, modelado de bases de datos y la creación de soluciones tecnológicas aplicadas.</p>
     </section>
@@ -31,37 +31,45 @@
         
         <!-- Columna Educación -->
         <div style="flex: 1;">
+            <section class="seccion" id="Educación">
             <h2>Educación</h2>
-            
+            <article>
             <h3>Ingeniería de Sistemas</h3>
             <p><strong>Universidad CESMAG</strong></p>
             <p>Formación profesional en curso (4to semestre).</p>
-
+            </article>
+            <article>
             <h3>Curso en Contabilidad</h3>
             <p><strong>SENA (Servicio Nacional de Aprendizaje)</strong></p>
             <p>Formación complementaria en conceptos y registros contables.</p>
-
+            </article>
+            <article>
             <h3>Bachiller Académico</h3>
             <p><strong>Institución Educativa Almirante Padilla</strong></p>
             <p>Educación secundaria concluida.</p>
-        </div>
+            </article>
+            
+        </div>   
+            </section>
+            
+            
 
         <!-- Columna Experiencia Profesional -->
-        <div style="flex: 1;">
-            <h2>Experiencia profesional</h2>
-
-            <h3>Estudiante de Ingeniería de Sistemas</h3>
-            <p><strong>Universidad CESMAG</strong></p>
-            <p>2026 - Actualidad</p>
-       
-        </div>
-
+        <section class="seccion" id="Experiencia"> 
+            <article>
+        <h2>Experiencia profesional</h2>
+        <h3>Estudiante de Ingeniería de Sistemas</h3>
+        <p><strong>Universidad CESMAG</strong></p>
+        <p>2026 - Actualidad</p>
+            </article> 
+            
+        <section>
     </div>
 
     <hr style="border: none; border-top: 1px dashed #ccc; margin: 30px 0;">
 
     <!-- Sección Habilidades -->
-    <section>
+    <section class="seccion" id="Habilidades">
         <h2>Habilidades</h2>
         <ul>
             <li>Desarrollo web básico (HTML y CSS)</li>
@@ -80,6 +88,13 @@
     <section style="margin-top: 20px;">
         <p><a href="Pasatiempos.html" style="font-weight: bold; font-size: 1.2em; color: #0066cc; text-decoration: none;">Ver mis Pasatiempos e Intereses →</a></p>
     </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Andrés Eduardo López</p>
+    <p>Estudiante de Ingeniería de Sistemas</p>
+</footer>
 
 </body>
 </html>
