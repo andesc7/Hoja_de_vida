@@ -3,177 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida - Andrés Eduardo López</title>
+    <title>Soy Andrés y esta es mi hoja de vida</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-
-    <!-- Encabezado principal -->
-    <header>
-        <h1>Andrés Eduardo López</h1>
-        <h2>Ingeniero de Sistemas</h2>
-        <img src="img/and.jpeg" alt="Fotografía de Andrés López" width="200">
-    </header>
+  <!-- Encabezado principal -->
+   <header>
+    <h1>Andrés Eduardo López</h1>
+    <h2>Ingeniero de Sistemas</h2>
+    <img src="img/and.jpeg" alt="Fotografía de Andrés López" width="200">
+   </header>
 
     <hr>
 
     <main>
-        <!-- Perfil profesional -->
-        <section>
-            <h2>Mi Perfil Profesional</h2>
-            <p>Ingeniero de Sistemas y Experto en Ciberseguridad Avanzada.</p>
-            <p>Aficionado de la tecnología.</p>
-        </section>
+      <!-- Perfil profesional -->
+      <section class="section" id="Perfil">
+        <h2>Mi Perfil Profesional</h2>
+        <p>
+          Ingeniero de Sistemas y Experto en Ciberseguridad Avanzada.
+        </p>
 
-        <hr>
-
-        <!-- Información de contacto -->
-        <section>
-            <h2>Información de contacto</h2>
-            <p>Correo: jomix1603@gmail.com</p>
-            <p>Teléfono: 3107555409</p>
-            <p>Ciudad: Pasto, Colombia</p>
-        </section>
-
-        <hr>
-
-        <!-- Redes sociales -->
-        <section>
-            <h2>Mis redes sociales</h2>
-            <ol>
-                <li>
-                    <a href="https://www.instagram.com/migue_163_?igsi=MWlvbWxyYXczZHZsbQ%3D%3D&utm_source=qr" target="_blank">Instagram</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
-                </li>
-            </ol>
-        </section>
-
-        <hr>
-
-        <!-- Educación -->
-        <section>
-            <div>
-                <h2>Educación</h2>
-                <article>
-                    <h3>Ingeniería de Sistemas</h3>
-                    <p>Universidad CESMAG | En curso</p>
-                </article>
-                <article>
-                    <h3>SENA | Finalizado</h3>
-                    <p>Técnico en Asistencia Administrativa</p>
-                </article>
-            </div>
-        </section>
-
-        <hr>
-
-        <!-- Experiencia profesional -->
-        <section>
-            <div>
-                <h2>Experiencia profesional</h2>
-                <article>
-                    <h3>Estudiante en Ingeniería de Sistemas</h3>
-                    <p>2026 - Actualidad</p>
-                </article>
-            </div>
-        </section>
-
-        <hr>
-
-        <!-- Habilidades -->
-        <section>
-            <div>
-                <h2>Habilidades</h2>
-                <ul>
-                    <li>Desarrollo web: HTML5, CSS3, JavaScript</li>
-                    <li>Bases de datos y Ciberseguridad</li>
-                    <li>Control de versiones: Git y GitHub</li>
-                    <li>Resolución analítica de problemas</li>
-                </ul>
-            </div>
-        </section>
-
-        <hr>
-
-        <!-- Proyectos -->
-        <section>
-            <div>
-                <h2>Proyectos</h2>
-                <h3>Urgex - Sistema de Rutas para Emergencias</h3>
-                <p>Propuesta y desarrollo de sistema inteligente para optimización de tiempos de respuesta en vehículos de emergencia mediante APIs de tráfico.</p>
-            </div>
-        </section>
-
-        <hr>
-
-        <!-- Enlace a pasatiempos -->
-        <h2>
-            <a href="Pasatiempos.html">Dale click aquí para conocer mis pasatiempos favoritos =D</a>
-        </h2>
-    </main>
+        <p>
+          Aficionado de la tecnología.
+        </p>
+      </section>
 
     <hr>
-
-    <!-- Pie de página -->
-    <footer>
-        <p>Hoja de Vida - Andrés López / Derechos Reservados 2026 ®</p>
-    </footer>
-=======
-    <!-- Información principal -->
-    <h1>Andres Eduardo Lopez</h1>
-    <h2>Ingeniero de Sistemas</h2>
-    <img src="/img/squelo copy.jpeg" alt="Fotografía de Andres Edaurdo Lopez" width="200">
-
-    <hr>
-    <!-- Perfil profesional -->
-    <h2>Perfil profesional</h2>
-    <p>
-    Profesional en farmear aura, llevando el deporte a competir a niveles nacionale Six sevennn.
-    </p>
-
-    <p>
-    Interesado en el desarrollo de software, tecnologías web,
-    En el gym.
-    </p>
-
-    <hr>
+   
     <!-- Información de contacto -->
-    <h2>Información de contacto</h2>
+      <section class="section" id="contacto">
+        <h2>Información de contacto</h2>
 
-    <p>Correo: Andreslooez608@gmail.com</p>
-    <p>Teléfono: 310 755 409</p>
-    <p>Ciudad: Pasto, Colombia</p>
+        <p>Correo: 
+        <a href="mailto:Andreslooez608@gmail.com">Andreslooez608@gmail.com</a>
+        </p>
+        <p>Telefono:
+        <a href="tel: 3107555409">3107555409</a>
+        </p>
+     
+        
+        <a href="tel: 3107555409">3107555409</a>
+        <p>Ciudad: Pasto, Colombia</p>
+        <h3> Enviame un mensaje</h3>
+        <form action="">
+            <label for="">Nombre: </label>
+            <input type="text" id= "Nombre" name="Nombre" placeholder="Escribe tu nombre" required>
+        
+            <label for="">Correo: </label>
+            <input type="email"id= "Correo" name="Correo" placeholder="ejemplo@correo.com" required>
+    
+            <label for="">Telefono: </label>
+            <input type="tel" id= "Telefono" name="Telefono" placeholder="300 000 0000">
+        <br>
 
-    <!-- Redes sociales -->
-    <!-- <hr> Salto de linea que me dibuja la division> -->
-    <!-- <br> Salto de linea> -->
+<label for="mensaje">Escribe tu mensaje</label>
+<textarea name="" id= "mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea> 
+<button type="submit">enviar</button>
+    </section>
+    
+        </form>
+    
     <hr>
+        
+    <section class="section" id="Redes">
+    <!-- Redes sociales -->
     <h2>Mis redes sociales</h2>
-  
-    <!--<ul> me indica que voy a tener una lista no ordenada -->
-    <ol>
-      <!-- yo tengo un <li> por cada elemrnto que va tener en mi lista -->
-      <li> 
-        <a href="https://www.facebook.com/?locale=es_LA">facebook</a>
-      </li>
 
-      <li>
-         <a href="https://www.youtube.com/?app=desktop&hl=es">youtube</a>
+    <ol> 
+      <li> 
+        <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/"> Instagram </a>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank"> Facebook </a>
       </li>
+      <li>
+        <a href="https://www.youtube.com/?app=desktop&hl=es" target="_blank"> YouTube </a>
+      </li>           
     </ol>
+      </section>    
+
+    <hr>
+        
+    <section class="section" id="Educación">
+    <div>
+     <h2>Educación</h2>
+    <article class="Educación">
+     <h3>Ingeniería de Sistemas</h3>
+     <p>Universidad CESMAG | En curso</p>
+    </article>
+
+    <article class="Educación">
+     <h3>SENA | Finalizado</h3>
+     <p>Técnico en Asistencia Administrativa</p>
+    </article>
+
+    </div>
+      </section>
+        
+    <hr>
+
+      <section class="section" id="Experiencia">
+    <div>
+     <h2>Experiencia profesional</h2>
+     <article class="Experiencia">
+     <h3>Estudiante en Ingeniería de Sistemas</h3>
+    <p>2026 - Actualidad</p>
+     </article>
+    </div>
+      </section>
+
+    <hr>
+
+     <section class="section" id="Habilidades">
+    <div>
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Desarrollo web: HTML5, CSS3, JavaScript</li>
+      <li>Bases de datos y Ciberseguridad</li>
+      <li>Control de versiones: Git y GitHub</li>
+      <li>Resolución analítica de problemas</li>
+    </ul>
+    </div>
+     </section>
+
+    <hr>
+
+     <section class="section" id="Proyectos">
+    <div>
+     <h2>Proyectos</h2>
+     <article class="Proyectos">
+     <h3>Urgex - Sistema de Rutas para Emergencias</h3>
+    <p>Propuesta y desarrollo de sistema inteligente para optimización de tiempos de respuesta en vehículos de emergencia mediante APIs de tráfico.</p>
+    </article>
+  </div>
+     </section>
 
     <hr>
     <h2>
-      <a href="pasatiempos.html">Dale click aqui para conocer mis pasatiempos favoritos</a>
+      <a href="Pasatiempos.html">Dale click aqui para conocer mis pasatiempos favoritos =D</a>
     </h2>
 
+    </main>
+
+    <hr>
+    <!-- Pie de pagina -->
+     <footer>
+        Hoja de Vida - Andrés López / Derechos Reservados 2026 ®️
+     </footer>
 </body>
 </html>
