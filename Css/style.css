@@ -1,0 +1,29 @@
+body {
+    background-color: #f8fafc;
+    color: #526d97;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px 40px;
+}
+
+/* =====================
+   TEXTOS
+   ===================== */
+
+h1 {
+    color: #1f2937;
+    font-size: 40px;
+}
+
+/* =====================
+   SECCIONES
+   ===================== */
+
+.section {
+    background-color: rgb(156, 79, 79);
+}
+
+#Perfil {
+    background-color: #324b72;
+}
