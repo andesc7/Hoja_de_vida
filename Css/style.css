@@ -8,22 +8,57 @@ body {
 }
 
 /* =====================
-   TEXTOS
-   ===================== */
+TEXTOS
+===================== */
 
 h1 {
-    color: #1f2937;
+    color: #1e2c3f;
     font-size: 40px;
 }
 
-/* =====================
-   SECCIONES
-   ===================== */
-
-.section {
-    background-color: rgb(156, 79, 79);
+h2 {
+    color: #2563eb;
+    font-size: 28px;
 }
 
-#Perfil {
-    background-color: #324b72;
+h3 {
+    font-size: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* =====================
+SECCIONES
+===================== */
+
+section { /* ETIQUETA */
+    background-color: #ffffffad;
+}
+
+.seccion { /* CLASE (.) */
+    background-color: white;
+}
+
+#Perfil { /* ID (#) */
+    background-color: #7ad5ffe0;
+}
+
+#contacto {
+    background-color: #526d97;
+}
+
+header{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+}
+
+header h2{
+    color: #d1d5db;
 }
