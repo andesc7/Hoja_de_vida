@@ -1,10 +1,13 @@
 body {
-    background-color: #f8fafc;
-    color: #526d97;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 auto;
-    max-width: 900px;
-    padding: 20px 40px;
+    margin: 0;
+    background-color: #f1f5f9;
+    color: #334155;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* =====================
@@ -12,12 +15,12 @@ TEXTOS
 ===================== */
 
 h1 {
-    color: #1e2c3f;
+    color: #0f172a;
     font-size: 40px;
 }
 
 h2 {
-    color: #2563eb;
+    color: #1e3a8a;
     font-size: 28px;
 }
 
@@ -33,32 +36,143 @@ p {
 SECCIONES
 ===================== */
 
-section { /* ETIQUETA */
-    background-color: #ffffffad;
+section { /* ETIQUETA GLOBAL */
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
 }
 
-.seccion { /* CLASE (.) */
-    background-color: white;
+.seccion { /* CLASE (.) EN MINÚSCULA */
+    background-color: #ffffff;
+    margin-top: 0;
 }
 
 #Perfil { /* ID (#) */
-    background-color: #7ad5ffe0;
+    background-color: #e0f2fe;
 }
 
 #contacto {
-    background-color: #526d97;
+    background-color: #f0f9ff;
 }
 
-header{
-    background-color: #1f2937;
+header {
+    background-color: #0f172a;
     color: white;
     text-align: center;
+    padding: 20px 0;
 }
 
-header h1{
+header h1 {
     color: white;
 }
 
-header h2{
-    color: #d1d5db;
+header h2 {
+    color: #93c5fd;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* =====================
+FORMULARIOS Y TABLAS
+===================== */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0f172a;
+    color: white;
+}
+
+/* =====================
+TARJETAS DE CONTENIDO
+===================== */
+
+.proyecto {
+    background-color: #f8fafc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+.formacion {
+    background-color: #f8fafc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+.experiencia {
+    background-color: #f8fafc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
 }

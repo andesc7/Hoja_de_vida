@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soy Andrés y esta es mi hoja de vida</title>
-    <link rel="stylesheet" href="Css/style.css">
+    <!-- Ruta corregida a minúsculas -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!-- Encabezado principal -->
+   <!-- Encabezado principal -->
    <header>
     <h1>Andrés Eduardo López</h1>
     <h2>Ingeniero de Sistemas</h2>
@@ -18,22 +19,47 @@
     <hr>
 
     <main>
-      <!-- Perfil profesional --> 
+      <table>
+        <thead>
+            <tr>
+              <th>CARGO</th>
+              <th>ORGANIZACION</th>
+              <th>PERIODO</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Estudiante tiempo completo</td>
+            <td>Universidad CESMAG</td>
+            <td>2026 - actual</td>
+          </tr>
+          <tr>
+            <td>Gamer</td>
+            <td>Garena Freefire</td>
+            <td>2022-2025</td>
+          </tr>
+          <tr>
+            <td>Amante al gym</td>
+            <td>Invictofit</td>
+            <td>2023-2026</td>
+          </tr>
+        </tbody>
+      </table>
 
-      <section class="section" id="Perfil">
+      <!-- Perfil profesional --> 
+      <section class="seccion" id="Perfil">
         <h2>Mi Perfil Profesional</h2>
         <p>
           Ingeniero de Sistemas y Experto en Ciberseguridad Avanzada.
         </p>
-
         <p>
           Aficionado de la tecnología.
         </p>
       </section>
 
-    <hr>
+      <hr>
    
-    <!-- Información de contacto -->
+      <!-- Información de contacto -->
       <section class="seccion" id="contacto">
         <h2>Información de contacto</h2>
 
@@ -66,90 +92,92 @@
     
     <hr>
         
-    <section class="section" id="Redes">
-    <!-- Redes sociales -->
-    <h2>Mis redes sociales</h2>
-
-    <ol> 
-      <li> 
-        <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/?locale=es_LA" target="_blank"> Facebook </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/?app=desktop&hl=es" target="_blank"> YouTube </a>
-      </li>           
-    </ol>
-      </section>    
+    <section class="seccion" id="Redes">
+        <!-- Redes sociales -->
+        <h2>Mis redes sociales</h2>
+        <ol> 
+          <li> 
+            <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank"> Facebook </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/?app=desktop&hl=es" target="_blank"> YouTube </a>
+          </li>           
+        </ol>
+    </section>    
 
     <hr>
         
-    <section class="section" id="Educación">
-    <div>
-     <h2>Educación</h2>
-    <article class="Educación">
-     <h3>Ingeniería de Sistemas</h3>
-     <p>Universidad CESMAG | En curso</p>
-    </article>
+    <section class="seccion" id="Educacion">
+        <div>
+          <h2>Educación</h2>
+          <!-- Cambiado class="Educación" a class="formacion" para coincidir con el CSS -->
+          <article class="formacion">
+            <h3>Ingeniería de Sistemas</h3>
+            <p>Universidad CESMAG | En curso</p>
+          </article>
 
-    <article class="Educación">
-     <h3>SENA | Finalizado</h3>
-     <p>Técnico en Asistencia Administrativa</p>
-    </article>
-
-    </div>
-      </section>
+          <article class="formacion">
+            <h3>SENA | Finalizado</h3>
+            <p>Técnico en Asistencia Administrativa</p>
+          </article>
+        </div>
+    </section>
         
     <hr>
 
-      <section class="section" id="Experiencia">
-    <div>
-     <h2>Experiencia profesional</h2>
-     <article class="Experiencia">
-     <h3>Estudiante en Ingeniería de Sistemas</h3>
-    <p>2026 - Actualidad</p>
-     </article>
-    </div>
-      </section>
+    <section class="seccion" id="Experiencia">
+        <div>
+          <h2>Experiencia profesional</h2>
+          <!-- Cambiado a minúsculas -->
+          <article class="experiencia">
+            <h3>Estudiante en Ingeniería de Sistemas</h3>
+            <p>2026 - Actualidad</p>
+          </article>
+        </div>
+    </section>
 
     <hr>
 
-     <section class="section" id="Habilidades">
-    <div>
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Desarrollo web: HTML5, CSS3, JavaScript</li>
-      <li>Bases de datos y Ciberseguridad</li>
-      <li>Control de versiones: Git y GitHub</li>
-      <li>Resolución analítica de problemas</li>
-    </ul>
-    </div>
-     </section>
+    <section class="seccion" id="Habilidades">
+        <div>
+          <h2>Habilidades</h2>
+          <ul>
+            <li>Desarrollo web: HTML5, CSS3, JavaScript</li>
+            <li>Bases de datos y Ciberseguridad</li>
+            <li>Control de versiones: Git y GitHub</li>
+            <li>Resolución analítica de problemas</li>
+          </ul>
+        </div>
+    </section>
 
     <hr>
 
-     <section class="section" id="Proyectos">
-    <div>
-     <h2>Proyectos</h2>
-     <article class="Proyectos">
-     <h3>Urgex - Sistema de Rutas para Emergencias</h3>
-    <p>Propuesta y desarrollo de sistema inteligente para optimización de tiempos de respuesta en vehículos de emergencia mediante APIs de tráfico.</p>
-    </article>
-  </div>
-     </section>
+    <section class="seccion" id="Proyectos">
+        <div>
+          <h2>Proyectos</h2>
+          <!-- Cambiado de Proyectos (plural/mayúscula) a proyecto (singular/minúscula) -->
+          <article class="proyecto">
+            <h3>Urgex - Sistema de Rutas para Emergencias</h3>
+            <p>Propuesta y desarrollo de sistema inteligente para optimización de tiempos de respuesta en vehículos de emergencia mediante APIs de tráfico.</p>
+          </article>
+        </div>
+    </section>
 
     <hr>
+
     <h2>
-      <a href="Pasatiempos.html">Dale click aqui para conocer mis pasatiempos favoritos =D</a>
+      <a href="Pasatiempos.html">Dale click aquí para conocer mis pasatiempos favoritos =D</a>
     </h2>
 
     </main>
 
     <hr>
     <!-- Pie de pagina -->
-     <footer>
-        Hoja de Vida - Andrés López / Derechos Reservados 2026 ®️
-     </footer>
+    <footer>
+       <p>Hoja de Vida - Andrés López / Derechos Reservados 2026 ®️</p>
+    </footer>
 </body>
 </html>
